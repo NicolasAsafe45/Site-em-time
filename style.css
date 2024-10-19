@@ -3,3 +3,23 @@
     margin: 0;
     box-sizing: border-box;
 }
+nav{
+    padding: 10px;
+    background-color: blue;
+    display: flex;
+    width: 100%;
+    color: white;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    ul{
+        display: flex;
+        gap: 20px;
+        list-style: none;
+        font-weight: 600;
+    }
+    button{
+        padding: 20px;
+        border: none;
+        border-radius: 10px;
+    }
+}

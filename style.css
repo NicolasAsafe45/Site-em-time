@@ -23,3 +23,21 @@ nav{
         border-radius: 10px;
     }
 }
+
+main{
+    display: flex;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    justify-content: center;
+    img{
+        width: 100%;
+    }
+    div{
+        margin-top: 50px;
+        width: 100%;
+        p{
+            font-size: 100%;
+        }
+    }
+}
